@@ -18,5 +18,10 @@ def mango():
     return render_template("mango.html")
 
 
+@app.route('/coala')
+def coala():
+    return render_template("coala.html")
+
+
 if __name__ == '__main__':
     app.run()
